@@ -1,0 +1,22 @@
+@use '../partials/colors' as *;
+
+.map {
+    background-color: $bg-color-four;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+        height: 450px;
+        border: none;
+    }
+}
