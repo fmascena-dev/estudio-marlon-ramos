@@ -52,3 +52,49 @@
     color: $text-color-three;
     text-align: center;
 }
+
+@media (min-width: 250px) and (max-width: 559px) {
+    .footer {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+    }
+    
+    .logo-footer {
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .direitos-footer {
+        p {
+        font-size: 1.5rem;
+    }
+    }
+}
+
+@media (min-width: 560px) and (max-width: 950px) {
+    .footer {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+    }
+    
+    .logo-footer {
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .direitos-footer {
+        p {
+        font-size: 1.5rem;
+    }
+    }
+}

@@ -6,6 +6,7 @@ export default function About() {
     <section className="about">
       <div className="container about-content">
         <div
+          className='logo-about'
           data-aos="fade-right"
           data-aos-delay="300"
           data-aos-duration="1500"

@@ -39,7 +39,7 @@ export default function Services() {
           >
             <img src={CorteOne} alt="Corte de cabelo normal" />
             <div className="haircut-info">
-              <strong>Corte de cabelo normal</strong>
+              <strong>Corte normal</strong>
               <button>R$ 45,00</button>
             </div>
           </div>

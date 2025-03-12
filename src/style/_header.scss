@@ -34,8 +34,7 @@ header {
   .ghost {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex: 0.5;
+    flex: 0.4;
     gap: 1rem;
 
     a {
@@ -44,7 +43,6 @@ header {
         height: 2rem;
         fill: $bg-color-two;
         transition: all 0.4s ease-in-out;
-
 
         &:hover {
           animation: translateY 0.5s infinite alternate ease-in-out;
@@ -68,6 +66,13 @@ header {
       max-width: 550px;
       height: auto;
     }
+  }
+
+  .btn-header {
+    flex: 0.4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
   }
 
   .btn-header .btn-agendar {
@@ -127,5 +132,74 @@ header {
     border: 1px solid $bg-color-two;
     background-color: transparent;
     color: $text-color-one;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 459px) {
+  .bg-header {
+    .ghost {
+      display: none;
+    }
+
+    .logo {
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .btn-agendar {
+      display: none;
+    }
+
+    .hero {
+      height: 40vh;
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+      }
+
+      .button-contact {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (min-width: 460px) and (max-width: 850px) {
+  .bg-header {
+    .ghost {
+      display: none;
+    }
+
+    .logo {
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .btn-agendar {
+      display: none;
+    }
+
+    .hero {
+      height: 40vh;
+      // margin-top: 55%;
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+      }
+
+      .button-contact {
+        text-align: center;
+      }
+    }
   }
 }

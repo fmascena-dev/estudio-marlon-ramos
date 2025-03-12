@@ -6,7 +6,7 @@
   color: $text-color-one;
   margin-top: -0.05rem;
   padding: 5% 0;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .about-content {
@@ -38,6 +38,53 @@
       font-size: 1.25rem;
       font-weight: 400;
       text-align: justify;
+    }
+  }
+}
+@media (min-width: 250px) and (max-width: 559px) {
+  .about-content {
+    display: flex;
+    flex-direction: column;
+
+    .logo-about img {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+
+    .about-description {
+      align-items: center;
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 560px) and (max-width: 950px) {
+  .about-content {
+    display: flex;
+    flex-direction: column;
+
+    .logo-about img {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+
+    .about-description {
+      align-items: center;
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 2rem;
+      }
     }
   }
 }
