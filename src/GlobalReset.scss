@@ -5,11 +5,29 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  // font-family: "Cinzel", serif;
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: $bg-color-two;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e1e1e1;
+}
 }
 
 .container {
-  // max-width: 1440px;
   margin: 0 auto;
   padding: 0 2rem;
 }

@@ -6,9 +6,9 @@ export default function About() {
     <section className="about">
       <div className="container about-content">
         <div
-          className='logo-about'
+          className="logo-about"
           data-aos="fade-right"
-          data-aos-delay="300"
+          data-aos-delay="200"
           data-aos-duration="1500"
         >
           <img src={Cortes} alt="Imagem sobre a barbearia" />
@@ -17,7 +17,7 @@ export default function About() {
         <div
           className="about-description"
           data-aos="fade-left"
-          data-aos-delay="300"
+          data-aos-delay="200"
           data-aos-duration="1500"
         >
           <h2>SOBRE</h2>

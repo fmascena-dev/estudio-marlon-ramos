@@ -21,7 +21,7 @@ export default function WhatsAppButton() {
 
   return (
     <a
-      href="https://wa.me/5599999999999"
+      href="https://wa.me/5521969635460?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20hor%C3%A1rio."
       className={`whatsapp-button ${isVisible ? 'visible' : ''}`}
       target="_blank"
       rel="noopener noreferrer"

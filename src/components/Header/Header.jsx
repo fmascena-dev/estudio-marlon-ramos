@@ -7,10 +7,10 @@ export default function Header() {
     <header className="bg-header container">
       <section className="section-header">
         <div className="ghost">
-          <a href="#">
+          <a href="https://www.instagram.com/marlonestudio" target="_blank">
             <FaInstagram />
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/marlon.ramos.756" target="_blank">
             <FaFacebook />
           </a>
           <a href="#">
@@ -22,7 +22,11 @@ export default function Header() {
         </figure>
 
         <div className="btn-header">
-          <a href="#" className="btn-agendar" target="_blank">
+          <a
+            href="https://sites.appbarber.com.br/agendamento/estudiodecortemarlonramos"
+            className="btn-agendar"
+            target="_blank"
+          >
             Agendar Horário
           </a>
         </div>
@@ -34,7 +38,11 @@ export default function Header() {
           Horário de funcionamento: <strong>09:00</strong> às{' '}
           <strong>19:00</strong>
         </p>
-        <a href="#" class="button-contact" target="_blank">
+        <a
+          href="https://sites.appbarber.com.br/agendamento/estudiodecortemarlonramos"
+          class="button-contact"
+          target="_blank"
+        >
           Agendar horário
         </a>
       </section>

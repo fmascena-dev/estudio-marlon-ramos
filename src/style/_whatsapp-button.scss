@@ -16,6 +16,7 @@
   opacity: 0;
   transform: translateY(100px);
   cursor: pointer;
+  z-index: 9999;
 
   &:hover {
     background-color: #158542;
