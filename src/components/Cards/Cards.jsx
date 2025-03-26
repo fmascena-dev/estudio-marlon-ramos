@@ -21,7 +21,11 @@ const services = [
   },
   { img: '/Cards/pigmentacao.jpeg', name: 'Pigmentação', price: 'R$ 15,00' },
   { img: '/Cards/platinado.jpeg', name: 'Platinado global', price: 'R$ 80,00' },
-  { img: '/Cards/protese-capilar.jpeg', name: 'Prótese capilar', price: 'Consultar' },
+  {
+    img: '/Cards/protese-capilar.jpeg',
+    name: 'Prótese capilar',
+    price: 'Consultar',
+  },
   { img: '/Cards/alisamento.png', name: 'Alisamento', price: 'R$ 20,00' },
 ];
 
@@ -36,7 +40,7 @@ export default function Cards() {
       loop={true}
       breakpoints={{
         1024: { slidesPerView: 3 },
-        768: { slidesPerView: 2 },
+        768: { slidesPerView: 1 },
         480: { slidesPerView: 1 },
       }}
       autoplay={{
