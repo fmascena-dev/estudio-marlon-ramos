@@ -32,8 +32,8 @@ export default function About() {
             quem entende do assunto!
           </p>
           <p>
-            Horário de funcionamento: <strong>09:00</strong> às{' '}
-            <strong>19:00</strong>
+            Horário de funcionamento: <strong className='horario'>09:00</strong> às{' '}
+            <strong className='horario'>19:00</strong>
           </p>
         </div>
       </div>

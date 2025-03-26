@@ -7,7 +7,6 @@ import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 import CorteOne from '../../assets/corte1.png';
 import CorteTwo from '../../assets/corte2.png';
-import CorteThree from '../../assets/corte3.png';
 
 const services = [
   { img: CorteOne, name: 'Corte', price: 'R$ 30,00' },
@@ -40,7 +39,7 @@ export default function Cards() {
       loop={true}
       breakpoints={{
         1024: { slidesPerView: 3 },
-        768: { slidesPerView: 1 },
+        768: { slidesPerView: 2 },
         480: { slidesPerView: 1 },
       }}
       autoplay={{
@@ -53,7 +52,7 @@ export default function Cards() {
           <div className="haircut">
             <img src={service.img} alt={service.name} />
             <div className="haircut-info">
-              <strong>{service.name}</strong>
+              <strong className='nome-service'>{service.name}</strong>
               <button>{service.price}</button>
             </div>
           </div>
