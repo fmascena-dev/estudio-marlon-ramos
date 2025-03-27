@@ -36,6 +36,7 @@
 
 .haircuts {
   width: 100%;
+  max-width: 1387px;
   display: flex;
   height: auto;
   justify-content: center;
@@ -213,4 +214,8 @@
   .swiper {
     height: auto;
   }
+}
+
+@media (min-width: 1400px) {
+  
 }

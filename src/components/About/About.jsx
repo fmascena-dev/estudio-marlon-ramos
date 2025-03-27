@@ -8,7 +8,7 @@ export default function About() {
         <div
           className="logo-about"
           data-aos="fade-right"
-          data-aos-delay="200"
+          data-aos-delay="300"
           data-aos-duration="1500"
         >
           <img src={Cortes} alt="Imagem sobre a barbearia" />
@@ -17,7 +17,7 @@ export default function About() {
         <div
           className="about-description"
           data-aos="fade-left"
-          data-aos-delay="200"
+          data-aos-delay="500"
           data-aos-duration="1500"
         >
           <h2>SOBRE</h2>
@@ -32,8 +32,8 @@ export default function About() {
             quem entende do assunto!
           </p>
           <p>
-            Horário de funcionamento: <strong className='horario'>09:00</strong> às{' '}
-            <strong className='horario'>19:00</strong>
+            Horário de funcionamento: <strong className="horario">09:00</strong>{' '}
+            às <strong className="horario">19:00</strong>
           </p>
         </div>
       </div>
